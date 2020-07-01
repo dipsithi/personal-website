@@ -1,5 +1,5 @@
 body{
-    margin: 0%;
+    margin:2%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -19,18 +19,26 @@ p{
 }
 
 .half-width{
-    width: 38%;
+    width: 32%;
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    margin-left: 8%;
+    padding-left: 4%;
 }
 
 .half-width img{
-width: 60%;
+width: 80%;
 }
 
+.header-bg{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 1350px 500px;
+    background-position: left;
+}
+
+
 section{
-    height: 400px;
+    height: 500px;
     padding-bottom: -5%;
 }
 
@@ -42,6 +50,13 @@ section{
     color: white;
 }
 
+.biography{
+
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 1350px 500px;
+    background-position: top;
+}
 h1{
     text-align: center;
 }
@@ -98,8 +113,13 @@ h1{
   cursor: pointer;
   margin-left: 35%;
   margin-right: 40%;
-    
-    
+      
+ }
+
+ .footer{
+     background-image: url(images/footer-bg.png);
+     background-repeat: no-repeat;
+    background-size: 1350px 500px;
  }
       
 
